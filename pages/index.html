@@ -1,0 +1,18 @@
+---
+layout: layout.html
+title: ROMA AETERNA EST
+---
+<div class = "home">
+	<img class="eagle" src="img/roman_eagle.jpg">
+	<p>A celebration of Romanity and Western Civilizational excellence</p>
+</div>
+
+<h2>List of articles:</h2>
+<ul>
+	{% for article in collections.article %}
+	<li><a href="{{article.url}}">{{article.data.title}}</a> | authored by {{article.data.authors | join: ", "}} on {{article.data.date | date: '%B %d, %Y'}}</li>
+	{% endfor %}
+</ul>
+
+<h2>About us:</h2>
+This website was created by Julian and Moneke

@@ -1,0 +1,24 @@
+{
+  "name": "roma.mt",
+  "version": "1.0.0",
+  "description": "Thanks Rome",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ragelmalti/roma.mt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/ragelmalti/roma.mt/issues"
+  },
+  "homepage": "https://github.com/ragelmalti/roma.mt#readme",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.6"
+  }
+}
